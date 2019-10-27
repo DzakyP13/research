@@ -27,7 +27,7 @@ while (1):
   Vt = float(input("Vt = "))
   Vn = float(input("Vn = "))
   W = float(input("W = "))
-  d = float(input("d = "))
+  d = 0.2 #pemisalan
 
   V0 = Vn + W * d
   V1 = (-1) * Vt + W * d

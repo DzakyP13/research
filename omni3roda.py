@@ -26,7 +26,7 @@ while (1):
   Vt = float(input("Vt = "))
   Vn = float(input("Vn = "))
   W = float(input("W = "))
-  d = float(input("d = "))
+  d = 0.2 # pemisalan
 
   V0 = (-1) * Vt * math.sin(math.pi / 3) + Vn * math.cos(math.pi / 3) + W * d
   V1 = (-1) * Vn + W * d
